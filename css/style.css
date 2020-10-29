@@ -15,6 +15,7 @@
     font-weight: 800;
     margin-top: 70px;
     margin-bottom: 70px;
+    text-transform: capitalize;
 }
 .play_off{
     background-image: url("../images/background-circle2-new.png");
@@ -26,9 +27,10 @@
     margin-top: 70px;
 }
 .btn-danger{
+    font-size: 19px;
     padding-left: 30px;
     padding-right: 30px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 .first{
     margin-top: 40px;
@@ -45,7 +47,7 @@ float: left;
 margin: 10px;
 }
 .card-img{
-    height: 120px;
+    height: 118px;
     width: 120px ;
 }
 .card-title{
@@ -55,26 +57,65 @@ margin: 10px;
     border: 10px solid;
     border-image-slice: 1;
     border-width: 15px;
-    border-image-source: linear-gradient(to right, #1400c8, #ff59ba);
+    border-image-source: linear-gradient(to right top, #2b1270, #dc3545);
 }
 .thv{
     margin-top: 100px;
+    margin-bottom: 200px;
+    
 }
 .third_sub{
-    background-image: url("../images/Picture1.png");
-    height: 500px;
-    background-size: cover;
-    padding-bottom: 100px;
+    
+    /* height: 500px;
+    background-size: cover;*/
+    margin-bottom: 500px; 
 
 }
 .third{
-    margin-bottom: 100px;
+    background-image: url("../images/Picture1.png");
+
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 .sub_title{
     font-size: 25px;
     font-weight: 700;
 }
+.sub_title_1{
+    color: gray;
+    font-size: 14px;
+}
+.card_work{
+    text-align: center;
+    margin: 30px;
+}
+.card_worl_t{
+    font-size: 20px;
+    color: gray;
+    font-weight: 600;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+.card_work img{
+    height: 150px;
+    border:2px solid rgb(206, 206, 206);
+    padding: 20px;
+    border-radius: 50%;
+}
+.Fifth{
+
+}
 
 footer{
     margin: 50px;
+}
+.video_text{
+    font-size: 37px;
+    font-weight: 800;
+    
+    color: rgb(21, 21, 141);
+}
+.video_text_sub{
+    font-size: 25px;
+    color: gray;
 }
